@@ -121,9 +121,9 @@
     <value>Invalid interval. Please input a integer value!</value>
   </data>
   <data name="Str_Start" xml:space="preserve">
-    <value>Start</value>
+    <value>&amp;Start</value>
   </data>
   <data name="Str_Stop" xml:space="preserve">
-    <value>Stop</value>
+    <value>S&amp;top</value>
   </data>
 </root>

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHotKey", "AutoHotKey.csproj", "{43E3ED3B-CB46-445D-B432-B27AC93AA86F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoHotKey", "AutoHotKey\AutoHotKey.csproj", "{43E3ED3B-CB46-445D-B432-B27AC93AA86F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AutoHotKeySetup", "AutoHotKeySetup\AutoHotKeySetup.vdproj", "{229CAA3B-7A4C-4BA2-A6D6-6ECF59EF188E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{43E3ED3B-CB46-445D-B432-B27AC93AA86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43E3ED3B-CB46-445D-B432-B27AC93AA86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43E3ED3B-CB46-445D-B432-B27AC93AA86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229CAA3B-7A4C-4BA2-A6D6-6ECF59EF188E}.Debug|Any CPU.ActiveCfg = Debug
+		{229CAA3B-7A4C-4BA2-A6D6-6ECF59EF188E}.Debug|Any CPU.Build.0 = Debug
+		{229CAA3B-7A4C-4BA2-A6D6-6ECF59EF188E}.Release|Any CPU.ActiveCfg = Release
+		{229CAA3B-7A4C-4BA2-A6D6-6ECF59EF188E}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

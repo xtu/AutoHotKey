@@ -38,7 +38,7 @@ namespace AutoHotKey
         {
             if (_turnedOn)  // stop it
             {
-                btnSwitch.Text = Resources.Str_Start;
+                btnSwitch.Text = AutoHotKeyResources.Str_Start;
                 txtInterval.Enabled = true;
                 txtKey.Enabled = true;
                 _turnedOn = false;
@@ -50,14 +50,14 @@ namespace AutoHotKey
                 int interval;
                 if (!Int32.TryParse(txtInterval.Text, out interval))
                 {
-                    MessageBox.Show(Resources.Err_InvalidInterval, Text,
+                    MessageBox.Show(AutoHotKeyResources.Err_InvalidInterval, Text,
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return false;
                 }
                 timer1.Interval = interval;
                 _keys = txtKey.Text;
 
-                btnSwitch.Text = Resources.Str_Stop;
+                btnSwitch.Text = AutoHotKeyResources.Str_Stop;
                 txtInterval.Enabled = false;
                 txtKey.Enabled = false;
                 _turnedOn = true;
